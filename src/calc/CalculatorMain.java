@@ -20,6 +20,7 @@ public class CalculatorMain {
 		c.divide(2);
 		c.power(2);
 		
+		
 		System.out.println("Calculation 2 (complex) - Expected Value: 1521.0, Calculated Value: " + c.getCurrentNumber());
 		
 		c.clear();

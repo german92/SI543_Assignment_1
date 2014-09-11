@@ -34,9 +34,13 @@ public class ComplexCalculator {
 	  currentNumber = 0;
 	}
 
-	public void power(currentNumber, double d) {
+	public void power(double d) {
 	// TODO raises current number to the power of a given number
-	
+	  double tempNum = currentNumber;
+	  while (d > 1) {
+	    currentNumber = currentNumber * tempNum;
+	    d = d - 1;
+	  }
 	}
 	
 	public double getCurrentNumber() {
