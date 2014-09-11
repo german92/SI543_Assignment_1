@@ -14,20 +14,30 @@ public class ComplexCalculator {
 		currentNumber = currentNumber + d;
 	}
 	
-	// subtract()
-	// TODO subtracts d from current number  
+	public void subtract(double d){
+	// TODO subtracts d from current number
+		currentNumber = currentNumber - d;
+	}
 	
-	// multiply()
+	public void multiply(double d) {
 	// TODO multiplies current number by d
-	
-	// divide()
+	  currentNumber = currentNumber * d;
+	}
+
+	public  void divide(double d){
 	// TODO divides current number by a given number
-	
-	// clear()
+	  currentNumber = currentNumber / d;
+	}
+
+	public void clear(){
 	// TODO sets current number to 0
-	
-	// power()
+	  currentNumber = 0;
+	}
+
+	public void power(currentNumber, double d) {
 	// TODO raises current number to the power of a given number
+	
+	}
 	
 	public double getCurrentNumber() {
 		return currentNumber;
