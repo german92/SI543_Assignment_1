@@ -50,11 +50,22 @@ public class ComplexCalculator {
 	//////////////////////////////////////////////////
 	// EXTRA FUNCTIONS - not needed for full credit //
 	
-	// isEven()
-	// TODO returns true is current number is even, false otherwise
 	
-	// isPrime()
+	// TODO returns true is current number is even, false otherwise
+	public boolean isEven() {
+		if (currentNumber % 2 == 0) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
 	// TODO returns true if current number is a prime number, false otherwise
+	public boolean isPrime() {
+		if(currentNumber)
+	}
+	
 	
 	////////////////////////////////////////////////////
 	

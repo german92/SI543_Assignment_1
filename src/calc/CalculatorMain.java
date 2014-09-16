@@ -35,7 +35,6 @@ public class CalculatorMain {
 		// ~
 		// Uncomment the rest of these lines only if you choose to implement the extra functions //
 		
-		/* 
 		
 		c.clear();
 		c.add(4);
@@ -56,7 +55,6 @@ public class CalculatorMain {
 		System.out.println("Challenge 4 - Is " + c.getCurrentNumber() + " even?");
 		System.out.println("Expected Answer: false, Calculated Answer: " + c.isEven());
 
-		*/
 
 	}
 
