@@ -63,7 +63,15 @@ public class ComplexCalculator {
 	
 	// TODO returns true if current number is a prime number, false otherwise
 	public boolean isPrime() {
-		if(currentNumber)
+		for(int i = 2; i <= currentNumber; ++i){
+			if((i != currentNumber) && (currentNumber % i == 0)) {
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+		return false;
 	}
 	
 	
